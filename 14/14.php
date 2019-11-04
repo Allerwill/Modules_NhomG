@@ -25,6 +25,7 @@ $less->compileFile('less/type-14.less', 'css/type-14.css');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./">  
     <link href="<?php echo $url_path ?>/css/type-14.css" rel="stylesheet" type="text/css" /> 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
