@@ -35,7 +35,7 @@ $less->compileFile('less/type-01.less', 'css/type-01.css');
   
 </body>
 </html>
-
+ok
 
 
 
