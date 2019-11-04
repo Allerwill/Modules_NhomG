@@ -1,0 +1,44 @@
+.widget_tag_cloud {
+  display: flex;
+  float: right;
+  background: #696460;
+  width: 360px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.widget_tag_cloud a {
+  color: #B1B0AF;
+  border-color: rgba(255,255,255,0.25);
+  background-color: transparent;
+  webkit-border-radius: 2em;
+  border-radius: 2em;
+  display: block;
+  float: left;
+  padding: 10px 12px;
+  margin: 0 5px 5px 0;
+  font-size: 0.8em !important;
+  border: 2px solid #ddd;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+}
+.widget_tag_cloud a:hover {
+  background-color: #EDB39B;
+  color: white;
+  text-decoration: none;
+}
+.widget_tag_cloud .widget_title {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%,0%);
+  font-weight: 400;
+  color: white;
+  font-size: 1.5rem;
+}
+.widget_tag_cloud .tagcloud {
+  margin-top: 30px;
+  margin-left: 10%;
+}

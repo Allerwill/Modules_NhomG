@@ -1,0 +1,11 @@
+.image {
+  background-color: rgba(80,75,71,0.5);
+  float: left;
+  text-align: center;
+}
+.image:hover {
+  background: lightblue;
+}
+.quantity {
+  display: inline-block;
+}

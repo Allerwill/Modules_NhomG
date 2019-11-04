@@ -1,0 +1,51 @@
+.bar-banner {
+  width: 1000px;
+}
+.bar-banner .page-title {
+  background-color: #fcf7f1;
+  font-size: 1.666em;
+  font-weight: 300;
+  line-height: 4.6em;
+  margin: 0 0 1.2em;
+  padding: 0 2.3em;
+  color: #33302e;
+}
+.bar-banner p {
+  margin-top: 0.8em;
+}
+.bar-banner .woocommerce-result-count {
+  margin-bottom: 2em;
+  margin: 0 0 1em;
+  float: left;
+}
+.bar-banner .woocommerce-ordering select {
+  webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  margin-bottom: 2em;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  background-color: #fcf7f1;
+  line-height: 20px;
+  color: #afafaf;
+  border: 1px solid transparent;
+  padding: 15px;
+}
+.bar-banner .woocommerce-ordering select:focus {
+  border: none;
+  outline-offset: 0px;
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: -moz-focus-ring-color auto 0px;
+  outline: focus-ring-color auto 0px;
+}
+.bar-banner .mode_buttons {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.bar-banner .fa {
+  font-size: 1.5rem;
+  color: lightblue;
+}

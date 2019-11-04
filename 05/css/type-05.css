@@ -1,0 +1,41 @@
+.row {
+  background-color: #fcf7f1;
+  display: flex;
+  height: 550px;
+}
+.row .col-md-8 {
+  width: 40%;
+  margin-top: -20px;
+  margin-left: 125px;
+}
+.row .col-md-8 img {
+  width: 85%;
+  padding: 20px;
+  margin-left: 30px;
+}
+.row .col-md-4 {
+  width: 60%;
+  margin-top: 20px;
+}
+.row .col-md-4 h1 {
+  color: #33302e;
+  font-family: "texgyretermes", serif;
+  font-size: 3.666em;
+  line-height: 1.3em;
+  font-weight: 400;
+  margin-top: 1.222em;
+  margin-bottom: 0.275em;
+}
+.row .col-md-4 h4 {
+  font-family: inherit;
+  font-size: 23px;
+  color: #33302e;
+}
+.row .col-md-4 p {
+  margin-top: 60px;
+  font-size: 15px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-style: normal !important;
+  color: #6f6f6f;
+  margin-bottom: 60px;
+}

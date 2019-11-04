@@ -1,0 +1,33 @@
+.header {
+  background: #504B47;
+}
+.header .top-header {
+  color: #B1B0AF;
+  font-size: 13px;
+}
+.header .top-header .pd-line {
+  padding: 15px 0;
+}
+.header .top-header i {
+  margin-right: 15px;
+  font-size: 16px;
+}
+.header .top-header .sameline {
+  display: inline-block;
+  margin-right: 40px;
+}
+.header .top-header .text-contact {
+  float: right;
+}
+.header .top-header .text-contact .btn-appointment {
+  padding: 15px 30px;
+  background: #F0BEAA;
+  display: inline-block;
+}
+.header .top-header .text-contact .btn-appointment a {
+  text-decoration: none;
+  color: #504B47;
+}
+.header .top-header .text-contact .btn-appointment:hover {
+  background: #F1C6B4;
+}

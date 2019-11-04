@@ -1,0 +1,65 @@
+.footer {
+  background-color: #fcf7f1;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer .logo {
+  text-align: center;
+  margin-top: 100px;
+}
+.footer .logo a {
+  text-decoration: none;
+}
+.footer .icon {
+  text-align: center;
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer .icon .item {
+  display: inline;
+}
+.footer .icon .item .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.footer .icon .item .fa .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.footer .icon .item .fa .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.footer .icon .item .fa .fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+.footer .icon .item .fa .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.footer .icon .item .fa .fa:hover {
+  opacity: 0.7;
+}
+.footer .address {
+  background-color: #fcf7f1;
+  overflow: auto;
+  margin-top: 50px;
+}
+.footer .address .right {
+  width: 48%;
+  text-align: left;
+  float: right;
+}
+.footer .address .left {
+  width: 48%;
+  text-align: right;
+  float: left;
+}
