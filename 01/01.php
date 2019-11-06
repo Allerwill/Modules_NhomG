@@ -31,12 +31,11 @@ $less->compileFile('less/type-01.less', 'css/type-01.css');
 </head>
 <body>
 <?php include $dir_block.'/01-content.php'; ?>
-<!--     
-   -->
-   <!--  -->
+    
+  
 </body>
 </html>
-<!-- Duc Test OK -->
+
 
 
 

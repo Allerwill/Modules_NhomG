@@ -28,12 +28,11 @@ $less->compileFile('less/type-08.less', 'css/type-08.css');
     <link href="<?php echo $url_path ?>/css/type-08.css" rel="stylesheet" type="text/css" /> 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php include $dir_block.'/08-content.php'; ?>
-    <script src="css/swiper.min.js"></script>
-     <script type="text/javascript" src="svg-with-js/js/fontawesome-all.min.js"></script>
+
   <!-- Initialize Swiper -->
   
 </body>
