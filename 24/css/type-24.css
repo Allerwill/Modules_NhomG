@@ -1,85 +1,20 @@
-.bottom-header {
-  position: relative;
+.team-members {
+  display: inline-flex;
+  float: left;
 }
-.menu {
-  position: absolute;
-  background: #FCF7F1;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  transition: 0.6s all ease;
-}
-.menu.show {
-  position: fixed;
-  top: 0;
-}
-.navbar.show1 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.navbar {
-  margin-top: 40px;
-  padding: 0;
-  transition: 0.6s all ease;
-}
-.navbar-light .navbar-nav .active>.nav-link {
-  color: #DBC607;
-}
-.navbar-light .navbar-nav .nav-link {
-  transition: 0.6s all ease;
-  color: #fff;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #DBC607;
-}
-li.nav-item {
-  margin: 0 20px;
-}
-.navbar-nav li > ul.dropdown-menu {
-  transition: 0.6s all ease;
-  visibility: hidden;
-  opacity: 0;
-}
-.navbar-nav li:hover > ul.dropdown-menu {
-  visibility: visible;
-  opacity: 1;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-}
-.dropdown-item:focus,
-.dropdown-item:hover {
-  color: #EDB39B !important;
-  background-color: unset !important;
-}
-.dropdown-menu {
-  background-color: #504b47 !important;
-  border-radius: unset !important;
-}
-.dropdown-item {
-  color: #afafaf !important;
-  width: 220px !important;
-}
-.dropdown-menu > li > a:hover:after {
-  text-decoration: underline;
-  transform: rotate(-90deg);
-}
-@media all and (min-width: 992px) {
-  .navbar {
-    margin: 50px 0;
-  }
-}
-.img-logo-fixed {
-  display: none;
-}
-.logo {
-  display: none;
-}
-.logo-fixed {
+.team-members .post_content {
   display: block;
+}
+.team-members .btn-primary {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: #edb39b;
+  background-color: #72b5ca;
+  text-align: inherit;
+}
+.team-members .about-member {
+  display: block;
+  text-align: left;
+  text-justify: auto;
 }

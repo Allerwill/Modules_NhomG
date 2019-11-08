@@ -14,25 +14,25 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/type-02.less', 'css/type-02.css');
+$less->compileFile('less/type-24.less', 'css/type-24.css');
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>02</title>
+    <title>24</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="<?php echo $url_path ?>/css/type-02.css" rel="stylesheet" type="text/css" /> 
+    <link href="<?php echo $url_path ?>/css/type-24.css" rel="stylesheet" type="text/css" /> 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-3.4.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<?php include $dir_block.'/02-content.php'; ?>
+<?php include $dir_block.'/24-content.php'; ?>
   
 </body>
 </html>
