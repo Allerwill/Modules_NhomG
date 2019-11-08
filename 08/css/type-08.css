@@ -1,50 +1,41 @@
 .content {
   text-align: center;
   font-family: 'Jomolhari', serif;
-  height: 680px;
 }
 .content a {
   text-align: center;
   text-decoration: none !important;
   display: inline-block;
-  font-size: 19px;
 }
 .content h1 {
   margin: 70px;
   font-size: 3.666em;
   line-height: 1.3em;
   font-weight: 400;
-  color: #33302e;
 }
-.content h5 {
-  font-size: 0.93em;
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 1.7em;
-  margin: 0.25em auto 3.8em;
-  max-width: 520px;
-  text-align: center;
-  text-transform: uppercase;
+.content .new a.time-new {
+  transition: 0.3s all ease;
+  color: #afafaf;
+  margin-top: 30px;
   font-family: "Aller", sans-serif;
-  color: #6f6f6f;
 }
-.content .row .name {
-  background-color: rgba(114,181,202,0.1);
-  margin: 3px;
+.content .new a.time-new:hover {
+  color: #72b5ca;
 }
-.content .row .name a.name {
-  color: #6f6f6f;
+.content .new a.name-new {
+  color: #33302e;
   position: relative;
+  font-size: 24px;
   font-family: "Aller", sans-serif;
   font-weight: 500;
   line-height: 1.1;
 }
-.content .row .name a.name:hover {
+.content .new a.name-new:hover {
   color: #72b5ca;
 }
-.content .row .name a.name:after {
+.content .new a.name-new:after {
   content: '';
-  height: 4px;
+  height: 2px;
   margin: 0 auto;
   position: absolute;
   bottom: 0;
@@ -53,11 +44,8 @@
   width: 14px;
   background-color: #EDB39B;
 }
-.content .row .name .fa {
-  margin: 10px 10px;
-}
-.content a.btn-more {
-  background-color: #72b5ca;
+.content .new a.btn-more {
+  background-color: #EDB39B;
   padding: 15px 30px;
   border-radius: 30px;
   color: #fff;
@@ -65,8 +53,11 @@
   display: inline-block;
   opacity: 1;
   transition: 0.3s all ease;
-  margin-top: 50px;
+  margin-top: 20px;
 }
-.content a.btn-more:hover {
+.content .new a.btn-more:hover {
   opacity: 0.6;
+}
+.content .new p {
+  font-family: "Aller", sans-serif;
 }
