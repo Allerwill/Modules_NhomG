@@ -18,36 +18,37 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="row">
       <div class="col-md-6">
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
+          
       </div>
        <div class="col-md-6">
-          <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+           <div class="name">
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
           <div class="name">
-             <a href="#" class="fa fa-check" aria-hidden="true">Drug Abuse Prevention and Treatment</a>
+             <a href="#"><i class="fa fa-check" aria-hidden="true"></i><span>Drug Abuse Prevention and Treatment</span></a>
           </div>
       </div>
     </div>

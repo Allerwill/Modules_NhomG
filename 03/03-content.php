@@ -12,6 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="slide-banner">
 	<div class="swiper-container">
     	<div class="swiper-wrapper">
+        <!--Slide1-->
 	      <div class="swiper-slide slide1">
 	      	
             <div class="title-slide"> 
@@ -22,27 +23,30 @@ $url_path = str_replace('\\', '/', $url_path);
 	      		<a href="#"> More Information</a>
 	      	</div>
 	      </div>
-	     <div class="swiper-slide slide2">
-        <div class="title-slide-home2"> 
-               MY SPECIALTY IS
-          </div>
-          <div class="title-slide"> 
-          
+        <!--/Slide1-->
+        <!--Slide2-->
+	   <div class="swiper-slide slide2">
+        
+             
+       
+        <div class="title-slide2"> 
+            <h6>MY SPECIALTY IS</h6>  
             Helping People Gain <br>
                Power in Their Life 
 
-          </div>
-          <div class="btn-more-infor">
-            <a href="#"> More Information</a>
-          </div>
         </div>
+        <div class="btn-more-infor">
+            <a href="#"> More Information</a>
+        </div>
+      </div>
+        <!--/ Slide2-->
         <div class="swiper-slide slide3">
           <div class="title-slide"> 
           Improve Your Life
-          </div>
-          <div class="title-slide-home3"> 
-               Relate to each other from the best in you… 
-          </div>
+         
+
+              <p> Relate to each other from the best in you… </p>
+            </div>
           <div class="btn-more-infor">
             <a href="#"> More Information</a>
           </div>
@@ -62,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
           loopFillGroupWithBlank: true,
 
           autoplay: {
-            delay: 50000,
+            delay: 500000,
             disableOnInteraction: false,
           },
 
