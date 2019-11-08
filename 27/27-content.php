@@ -11,14 +11,14 @@ $url_path = str_replace('\\', '/', $url_path);
 <aside class="widget_number_2 widget woocommerce widget_price_filter">
 <h5 class="widget_title">Filter by price</h5>
 	<div class="rangeslider">
-		<input class="min" name="range_1" type="range" min="514" max="525" value="514" />
-		<input class="max" name="range_1" type="range" min="514" max="525" value="525" />
+		<input class="min" name="range_1" type="range" min="14" max="25" value="14" />
+		<input class="max" name="range_1" type="range" min="14" max="25" value="25" />
 	<br><br>
 
 			<span class="label">Price: </span>
-			<span class="range_min light left">$514</span>
+			<span class="range_min light left">$14</span>
 			&ndash;
-			<span class="range_max light right">$525</span>
+			<span class="range_max light right">$25</span>
 			<button class="btn btn-primary">Filter</button>
 
 
