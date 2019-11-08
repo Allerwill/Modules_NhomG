@@ -141,7 +141,7 @@ $url_path = str_replace('\\', '/', $url_path);
 			<div class="post_thumb">
 				<a href="product-single.html" class="woocommerce-LoopProduct-link"></a>
 				<a class="hover_icon hover_icon_link" href="product-single.html">
-					<img src="images/product-12.jpg" style="display: inline-block; width:236px; height: 236px; border: 1px solid" class="attachment-shop_catalog size-shop_catalog" alt="product-3" title="product-3">
+					<img src="images/product-12.jpg" style ="display: inline-block; width:236px; height: 236px; border: 1px solid" class="attachment-shop_catalog size-shop_catalog" alt="product-3" title="product-3">
 				</a>
 			</div>
 		</div>
