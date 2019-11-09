@@ -8,60 +8,87 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
 ?>
-<div class="product-single">
-    <table>
-        <tr>
-            <td style="width: 620px">
-                <div class="images">
-                    <a href="images/product-12.jpg" class="icon-view-hover"
-                       title="" data-rel="prettyPhoto" rel="magnific">
-                        <img src="images/product-12.jpg"
-                             style="width: 400px; height: 400px; display: inline-block; border: solid 1px"
-                             class="attachment-shop_single size-shop_single" alt="product-12" title="product-12">
-                    </a>
-                    <!--                    <img src="images/product-12.jpg" alt="">-->
-                    <!--                    <a href="#" class="fa-close"></a>-->
-                    <!--                    <img class="fa-expand" src="images/product-12.jpg" alt="">-->
-                </div>
-            </td>
-            <td style="width: 30px"></td>
-            <td style="width: 350px">
-                <!-- entry-summary -->
-                <div class="summary entry-summary">
-                    <h1 class="product_title">The Meat Free Monday Cookbook</h1>
-                    <div>
-                        <p class="price">
-                            <span class="prd-price">$14.90</span>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                            ut aliquip ex ea commodo consequat</p>
-                    </div>
-                    <form class="cart" method="post" action="#">
-                        <div class="quantity">
-                            <input type="number" step="1" min="1" max="100" name="quantity" value="1" title="Qty"
-                                   class="input-text qty text" size="4" style="text-align: center; height: 38px;">
-                            <span class="q_inc"></span><span class="q_dec"></span></div>
-                        <input type="hidden" name="add-to-cart" value="215">
-                        <button type="submit" class="btn btn-primary">Add to cart</button>
-                    </form>
+<div class="content_wrap">
 
-                    <!-- product_meta -->
-                    <div class="product_meta">
-                        <hr>
-                        <span class="posted_in">Categories:
-							<a class="cat-types" href="#" rel="tag">All</a>,
-							<a class="cat-types" href="#" rel="tag">Magazines</a>
-						</span>
-                        <br>
-                        <span class="product_id">Product ID:
-							<span>215</span>
-						</span>
-                    </div>
-                    <!-- /product_meta -->
+    <!--                    Item1-->
+    <div class="column-email">
+        <div class="sc_section sc_section_block  aligncenter">
+            <div class="sc_section_inner">
+                <div class="sc_section_content_wrap">
+                    <figure class="sc_image sc_image_shape_square">
+                        <img src="images/mail.png" alt="">
+                    </figure>
                 </div>
-                <!-- /entry-summary -->
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+        <div class="text_column content_element ">
+            <div class="wrapper">
+                <p>
+                    info@yoursitename.com
+                    <br> www.yoursite.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--                    Item1-->
+
+
+    <!--                    Item2-->
+    <div class="column-phone">
+        <div class="sc_section sc_section_block aligncenter">
+            <div class="sc_section_inner">
+                <div class="sc_section_content_wrap">
+                    <figure class="sc_image sc_image_shape_square">
+                        <img src="images/phone.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="wpb_text_column wpb_content_element ">
+            <div class="wrapper">
+                <p>
+                    +1 (800) 456-7890
+                    <br> +1 (800) 245-7891
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--                    Item2-->
+
+
+    <!--                    Item3-->
+    <div class="column-place">
+        <div class="sc_section sc_section_block aligncenter">
+            <div class="sc_section_inner">
+                <div class="sc_section_content_wrap">
+                    <figure class="sc_image sc_image_shape_square">
+                        <img src="images/check.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="text_column content_element ">
+            <div class="wrapper">
+                <p>
+                    176 W Street Name,
+                    <br> New York, NY 10014
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--                    Item3-->
+
+
+<!--    <div class="column-place-test">-->
+<!--        <figure class="place-img">-->
+<!--            <img src="images/check.png" alt="">-->
+<!--        </figure>-->
+<!--        <div class="test-detail">-->
+<!--            <p>-->
+<!--                176 W Street Name,-->
+<!--                <br> New York, NY 10014-->
+<!--            </p>-->
+<!--        </div>-->
+<!--    </div>-->
+
+</div>
