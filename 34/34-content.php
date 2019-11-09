@@ -8,60 +8,59 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
 ?>
-<div class="product-single">
-    <table>
-        <tr>
-            <td style="width: 620px">
-                <div class="images">
-                    <a href="images/product-12.jpg" class="icon-view-hover"
-                       title="" data-rel="prettyPhoto" rel="magnific">
-                        <img src="images/product-12.jpg"
-                             style="width: 400px; height: 400px; display: inline-block; border: solid 1px"
-                             class="attachment-shop_single size-shop_single" alt="product-12" title="product-12">
-                    </a>
-                    <!--                    <img src="images/product-12.jpg" alt="">-->
-                    <!--                    <a href="#" class="fa-close"></a>-->
-                    <!--                    <img class="fa-expand" src="images/product-12.jpg" alt="">-->
-                </div>
-            </td>
-            <td style="width: 30px"></td>
-            <td style="width: 350px">
-                <!-- entry-summary -->
-                <div class="summary entry-summary">
-                    <h1 class="product_title">The Meat Free Monday Cookbook</h1>
-                    <div>
-                        <p class="price">
-                            <span class="prd-price">$14.90</span>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                            ut aliquip ex ea commodo consequat</p>
-                    </div>
-                    <form class="cart" method="post" action="#">
-                        <div class="quantity">
-                            <input type="number" step="1" min="1" max="100" name="quantity" value="1" title="Qty"
-                                   class="input-text qty text" size="4" style="text-align: center; height: 38px;">
-                            <span class="q_inc"></span><span class="q_dec"></span></div>
-                        <input type="hidden" name="add-to-cart" value="215">
-                        <button type="submit" class="btn btn-primary">Add to cart</button>
-                    </form>
+<div class="form_contact_page_bg">
+    <div class="page_content_wrap">
+        <div class="content_wrap ">
+            <div class="content">
+                <div class="wrapper">
+                    <div class="sc_form_wrap scheme_light">
+                        <div class="sc_form sc_form_style_form_1 aligncenter margin_top_huge margin_bottom_huge">
+                            <h2 class="sc_form_title">
+                                Contact Us Today
+                            </h2>
+                            <form data-formtype="form_1" method="post" action="include/sendmail.php" class="inited">
+                                <div class="sc_form_info">
+                                    <div class="columns_wraps">
 
-                    <!-- product_meta -->
-                    <div class="product_meta">
-                        <hr>
-                        <span class="posted_in">Categories:
-							<a class="cat-types" href="#" rel="tag">All</a>,
-							<a class="cat-types" href="#" rel="tag">Magazines</a>
-						</span>
-                        <br>
-                        <span class="product_id">Product ID:
-							<span>215</span>
-						</span>
+                                        <div class="column-name">
+                                            <div class="sc_form_item sc_form_field label_over">
+                                                <label class="required" for="sc_form_username"></label>
+                                                <input class="user-name" id="sc_form_username" type="text" name="username"
+                                                       placeholder="Name *">
+                                            </div>
+                                        </div>
+
+                                        <div class="column-email">
+                                            <div class="sc_form_item sc_form_field label_over">
+                                                <label class="required" for="sc_form_email"></label>
+                                                <input class="user-email" id="sc_form_email" type="text" name="email"
+                                                       placeholder="E-mail *">
+                                            </div>
+                                        </div>
+
+                                        <div class="column-subject">
+                                            <div class="sc_form_item sc_form_field label_over">
+                                                <label class="required" for="sc_form_subj"></label>
+                                                <input class="user-subject" id="sc_form_subj" type="text" name="subject"
+                                                       placeholder="Subject">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="sc_message-form">
+                                    <label class="required" for="sc_form_message"></label>
+                                    <textarea class="user-message" id="sc_form_message" name="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="sc_form_button">
+                                    <button class="btn-primary">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <!-- /product_meta -->
                 </div>
-                <!-- /entry-summary -->
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+    </div>
+</div>

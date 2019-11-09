@@ -1,47 +1,127 @@
-.image {
-  background-color: rgba(80,75,71,0.5);
-  float: left;
-  text-align: center;
+.inited {
+  background-color: #FCF7F1;
 }
-.image:hover {
-  background: lightblue;
-}
-.quantity {
-  display: inline-block;
-}
-.cart .quantity {
-  text-align: center;
-}
-.cart .quantity .input-text {
-  border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px;
-}
-.cart .quantity .input-text .input-text qty text {
-  text-align: center;
-}
-.cart .btn-primary {
-  border-radius: 25px;
-  margin-bottom: 7px;
-  margin-left: 20px;
-  line-break: auto;
-}
-.prd-price {
-  color: #edb39b;
-  font-size: 18.5px;
-  font-family: Aller, sans-serif;
-}
-.prd-price .p {
-  display: block;
-}
-.product_title {
+.sc_form_title {
+  color: #33302e;
   font-family: texgyretermes, serif;
-  display: block;
+  text-align: center;
 }
-.product_meta {
-  font-family: Aller, sans-serif;
-  color: #6f6f6f;
+.user-name {
+  border-radius: 25px;
+  background: white;
+  height: 40px;
+  width: auto;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
 }
-.product_meta .posted_in .cat-types {
+.user-name .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: white;
+}
+.user-email {
+  border-radius: 25px;
+  background: white;
+  height: 40px;
+  width: auto;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.user-email .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: white;
+}
+.user-subject {
+  border-radius: 25px;
+  background: white;
+  height: 40px;
+  width: auto;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.user-subject .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: white;
+}
+.user-message {
+  border-radius: 25px;
+  background: white;
+  height: 150px;
+  width: 70%;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.user-message .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: white;
+}
+.column-name {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.column-email {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.column-subject {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.columns_wraps {
+  text-align: center;
+}
+.sc_message-form {
+  padding-left: 20px;
+}
+.sc_form_button {
+  padding-left: 20px;
+}
+.btn-primary {
+  height: 53px;
+  width: 163px;
   font-family: Aller, sans-serif;
-  color: #edb39b;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #edb39b !important;
+  border-color: transparent !important;
+}
+.btn-primary:hover {
+  height: 53px;
+  width: 163px;
+  font-family: Aller, sans-serif;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #F1C4B0 !important;
+  border-color: transparent !important;
 }
