@@ -1,85 +1,142 @@
+.product-reviews {
+  display: block;
 
-.image {
-  background-color: rgba(80, 75, 71, 0.5);
-  float: left;
-  text-align: center;
-}
+  .prd-rew-content {
+    .user-reviews {
+      padding-left: 50px;
 
-.image:hover {
-  background: lightblue;
-}
+      .reviews-title {
+        font-family: texgyretermes, serif;
+        font-size: 24.375px;
+        color: #33302e;
+      }
 
-.quantity {
-  display: inline-block;
-}
+      .noreviews {
+        font-family: Aller, sans-serif;
+        font-size: 15px;
+        color: #6f6f6f;
 
-.cart {
-  .quantity {
-    text-align: center;
-
-    .input-text {
-      border-bottom-left-radius: 25px;
-      border-top-left-radius: 25px;
-
-      .input-text qty text {
-        text-align: center;
       }
     }
-  }
+    .comment-respond{
+      .social-login-connect-with{
+        font-family: Aller, sans-serif;
+        font-size: 15px;
+        color: #6f6f6f;
+        font-weight: inherit;
+      }
+      .comment-notes{
+        font-family: Aller, sans-serif;
+        font-size: 15px;
+        color: #6f6f6f;
+          font-weight: inherit;
+      }
+      .rating1 input{
 
-  .btn-primary {
-    border-radius: 25px;
-    margin-bottom: 7px;
-    margin-left: 20px;
-    line-break: auto;
+      }
+      .rating1 label{
+        display: inline-flex;
+        cursor: pointer;
+        width: 20px;
 
-  }
-}
 
-.prd-price {
-  color: #edb39b;
-  font-size: 18.5px;
-  font-family: Aller, sans-serif;
-    .p{
+      }
+      .rating1 label::before{
+        content: '\f005';
+        font-family: FontAwesome;
+        position: relative;
         display: block;
+        font-size: 20px;
+        color: #6f6f6f;
+        border-color: #edb39b;
+      }
+      .rating1 label::after {
+        content: '\f005';
+        font-family: FontAwesome;
+        position: absolute;
+        display: block;
+        font-size: 20px;
+        color: #edb39b;
+        opacity: 0;
+        transition: .5s;
+        text-shadow: 0 2px 5px #edb39b;
+      }
+      .rating1 label:hover:after{
+        opacity: 1;
+      }
+
+      .rating2 input{
+
+      }
+      .rating2 label{
+        display: inline-flex;
+        cursor: pointer;
+        width: 15px;
+
+
+      }
+      .rating2 label::before{
+        content: '\f005';
+        font-family: FontAwesome;
+        position: relative;
+        display: block;
+        font-size: 17px;
+        color: #6f6f6f;
+        border-color: #edb39b;
+      }
+      .rating2 label::after {
+        content: '\f005';
+        font-family: FontAwesome;
+        position: absolute;
+        display: block;
+        font-size: 17px;
+        color: #edb39b;
+        opacity: 0;
+        transition: .3s;
+        text-shadow: 0 2px 5px #edb39b;
+      }
+      .rating2 label:hover:after,
+      .rating2 input:hover ~ label:after,
+      .rating2 input:checked ~ label:after
+      {
+        opacity: 1;
+      }
+
+
+
     }
-}
 
-.product_title {
-  font-family: texgyretermes, serif;
-    display: block;
-}
 
-.product_meta {
-  font-family: Aller, sans-serif;
-  color: #6f6f6f;
-
-  .posted_in {
-    .cat-types {
+    .p {
       font-family: Aller, sans-serif;
-      color: #edb39b;
+      font-size: 15px;
+      color: #6f6f6f;
+    }
+  }
+
+  .prd-dsc-tabs {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 50px;
+
+
+    .description_tab {
+      color: #33302e;
+      font-family: Aller, sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      word-wrap: break-word;
+      text-underline: #edb39b;
+    }
+
+    .reviews_tab {
+      padding-left: 50px;
+      text-decoration: underline #edb39b;
+      color: #6f6f6f;
+      font-size: 15px;
+      font-family: Aller, sans-serif;
+      font-weight: bold;
+
     }
   }
 }
-//.images{
-//    height: 150px;
-//    width: auto;
-//}
-//.fa-close{
-//    //background-image: url("images/product-12.jpg");
-//    background-repeat: no-repeat;
-//    bottom: 418px;
-//    display: none;
-//    height: 32px;
-//    left: 462px;
-//    margin-top: -32px;
-//    position: relative;
-//    width: 32px;
-//}
-//.fa-expand {
-//    bottom: 125px;
-//    margin-left: -32px;
-//    margin-right: 16px;
-//    pointer-events: none;
-//    position: relative;
-//}

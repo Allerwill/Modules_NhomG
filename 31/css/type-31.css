@@ -1,3 +1,6 @@
+.product-description {
+  display: block;
+}
 .product-description .prd-dsc-content {
   padding-left: 50px;
   font-family: texgyretermes, serif;
