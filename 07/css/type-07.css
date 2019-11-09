@@ -1,0 +1,36 @@
+.module-7 {
+  background-color: #eaf5f9;
+}
+.module-7 .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+.module-7 .content {
+  background: #fff;
+  padding: 50px 40px;
+}
+.module-7 .content .fa-quote-left {
+  color: #72b5ca;
+  float: left;
+}
+.module-7 .content .fa-quote-right {
+  color: #72b5ca;
+  float: right;
+}
+.module-7 .content p {
+  margin: 0;
+  color: #6f6f6f;
+  padding: 0px 30px;
+}
+.module-7 .avatar {
+  text-align: center;
+  margin-top: -35px;
+}
+.module-7 img {
+  border-radius: 50%;
+}
+.module-7 .name-avt {
+  font-family: inherit;
+  text-align: center;
+  font-size: 18px;
+}

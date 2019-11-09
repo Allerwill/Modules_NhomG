@@ -14,28 +14,24 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/type-07.less', 'css/type-07.css');
+$less->compileFile('less/type-38.less', 'css/type-38.css');
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>07</title>
+    <title>38</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="<?php echo $url_path ?>/css/type-07.css" rel="stylesheet" type="text/css" /> 
+    <link href="<?php echo $url_path ?>/css/type-38.css" rel="stylesheet" type="text/css" /> 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/swiper.min.css">
-     <script src="js/jquery-3.4.0.min.js"></script>
-        <script src="js/swiper.min.js"></script>
 </head>
 <body>
-<?php include $dir_block.'/07-content.php'; ?>
+<?php include $dir_block.'/38-content.php'; ?>
     
-  <!-- Initialize Swiper -->
   
 </body>
 </html>
