@@ -8,60 +8,24 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
 ?>
-<div class="product-single">
-    <table>
-        <tr>
-            <td style="width: 620px">
-                <div class="images">
-                    <a href="images/product-12.jpg" class="icon-view-hover"
-                       title="" data-rel="prettyPhoto" rel="magnific">
-                        <img src="images/product-12.jpg"
-                             style="width: 400px; height: 400px; display: inline-block; border: solid 1px"
-                             class="attachment-shop_single size-shop_single" alt="product-12" title="product-12">
-                    </a>
-                    <!--                    <img src="images/product-12.jpg" alt="">-->
-                    <!--                    <a href="#" class="fa-close"></a>-->
-                    <!--                    <img class="fa-expand" src="images/product-12.jpg" alt="">-->
-                </div>
-            </td>
-            <td style="width: 30px"></td>
-            <td style="width: 350px">
-                <!-- entry-summary -->
-                <div class="summary entry-summary">
-                    <h1 class="product_title">The Meat Free Monday Cookbook</h1>
-                    <div>
-                        <p class="price">
-                            <span class="prd-price">$14.90</span>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                            ut aliquip ex ea commodo consequat</p>
-                    </div>
-                    <form class="cart" method="post" action="#">
-                        <div class="quantity">
-                            <input type="number" step="1" min="1" max="100" name="quantity" value="1" title="Qty"
-                                   class="input-text qty text" size="4" style="text-align: center; height: 38px;">
-                            <span class="q_inc"></span><span class="q_dec"></span></div>
-                        <input type="hidden" name="add-to-cart" value="215">
-                        <button type="submit" class="btn btn-primary">Add to cart</button>
-                    </form>
-
-                    <!-- product_meta -->
-                    <div class="product_meta">
-                        <hr>
-                        <span class="posted_in">Categories:
-							<a class="cat-types" href="#" rel="tag">All</a>,
-							<a class="cat-types" href="#" rel="tag">Magazines</a>
-						</span>
-                        <br>
-                        <span class="product_id">Product ID:
-							<span>215</span>
-						</span>
-                    </div>
-                    <!-- /product_meta -->
-                </div>
-                <!-- /entry-summary -->
-            </td>
-        </tr>
-    </table>
+<div class="product-description">
+    <ul class="prd-dsc-tabs">
+        <li>
+            <a class="description_tab" href="#tab-description">Description</a>
+        </li>
+        <li >
+            <a class="reviews_tab" href="#tab-reviews">Reviews (0)</a>
+        </li>
+    </ul>
+    <div class="prd-dsc-content"
+         id="tab-description" style="display: block;">
+        <h2>Product Description</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait
+            nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+            mazim placerat facer possim assum.</p>
+    </div>
+</div>
