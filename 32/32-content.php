@@ -51,8 +51,8 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <p class="comment-notes">
                                     <span id="email-notes">
-                                                                    Your email address will not be published.
-                                                                </span> Required fields are marked
+                                        Your email address will not be published.
+                                      </span> Required fields are marked
                                 <span class="required">*</span>
                             </p>
                             <label class="comment-notes" for="rating">Your Rating</label>
@@ -71,43 +71,46 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <input type="hidden" name="star" id="star5"><label for="star5"></label>
                             </div>
 
-                            <select name="rating" id="rating" aria-required="true" style="display: none;">
-                                <option value="">Rate…</option>
-                                <option value="5">Perfect</option>
-                                <option value="4">Good</option>
-                                <option value="3">Average</option>
-                                <option value="2">Not that bad</option>
-                                <option value="1">Very Poor</option>
-                            </select>
-                            <p class="comment-form-comment">
-                                <label for="comment">
-                                    Your Review
-                                    <span class="required">*</span>
-                                </label>
-                                <textarea id="comment" name="comment" cols="45" rows="8"
-                                          aria-required="true"></textarea>
-                            </p>
-                            <p class="comment-form-author">
-                                <label for="author">
-                                    Name
-                                    <span class="required">*</span>
-                                </label>
-                                <input id="author" name="author" type="text" value="" size="30" aria-required="true"
-                                       required="">
-                            </p>
-                            <p class="comment-form-email">
-                                <label for="email">
-                                    Email
-                                    <span class="required">*</span>
-                                </label>
-                                <input id="email" name="email" type="email" value="" size="30" aria-required="true"
-                                       required="">
-                            </p>
-                            <p class="form-submit">
-                                <input name="submit" type="submit" id="submit" class="submit" value="Submit">
-                                <input type="hidden" name="comment_post_ID" value="215" id="comment_post_ID">
-                                <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-                            </p>
+                            <div class="comment-form-comment">
+                                <span class="required">Your Review *</span>
+                                <p >
+                                    <textarea class="comment-text-field" id="comment" name="comment" type="text" value="" cols="45" rows="8" aria-required="true" required=""></textarea>
+
+                                </p>
+
+                                <p class="comment-form-author">
+                                    <label for="author">
+                                        Name
+                                        <span class="required">*</span>
+                                    </label>
+                                    <input class="ath-name" id="author" name="author" type="text" value="" size="30" aria-required="true"
+                                           required="">
+
+                                </p>
+                                <p class="comment-form-email">
+                                    <label for="email">
+                                        Email
+                                        <span class="required">*</span>
+                                    </label>
+                                    <input class="ath-email" id="email" name="email" type="email" value="" size="30" aria-required="true"
+                                           required="">
+                                </p>
+                                <p class="form-submit">
+                                    <input name="submit" type="submit" id="submit" class="submit btn-primary" value="Submit">
+                                    <input type="hidden" name="comment_post_ID" value="215" id="comment_post_ID">
+                                    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                                </p>
+                            </div>
+
+<!--                            <select name="rating" id="rating" aria-required="true" style="display: none;">-->
+<!--                                <option value="">Rate…</option>-->
+<!--                                <option value="5">Perfect</option>-->
+<!--                                <option value="4">Good</option>-->
+<!--                                <option value="3">Average</option>-->
+<!--                                <option value="2">Not that bad</option>-->
+<!--                                <option value="1">Very Poor</option>-->
+<!--                            </select>-->
+
                         </form>
                     </div>
                 </div>
@@ -116,24 +119,3 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
-
-<!--style="position: relative; box-sizing: border-box;
-left: -134.545px; width: 1439px; padding-left: 134.545px; padding-right: 134.455px;"-->
-<!--<p class="stars">-->
-<!--                                    <span>-->
-<!--                                            <a class="star-1 fa fa-star" aria-hidden="true" type="rating" href="#"></a>-->
-<!--                                            <a class="star-2 fa fa-star" href="#"></a>-->
-<!--                                            <a class="star-3 fa fa-star" href="#"></a>-->
-<!--                                            <a class="star-4 fa fa-star" href="#"></a>-->
-<!--                                            <a class="star-5 fa fa-star" href="#"></a>-->
-<!--                                     </span>-->
-<!--</p>-->
-<!--<p class="stars-small">-->
-<!--                                <span>-->
-<!--                                    <a class="star-1 fa fa-star" href="#"></a>-->
-<!--                                    <a class="star-2 fa fa-star" href="#"></a>-->
-<!--                                    <a class="star-3 fa fa-star" href="#"></a>-->
-<!--                                    <a class="star-4 fa fa-star" href="#"></a>-->
-<!--                                     <a class="star-5 fa fa-star" href="#"></a>-->
-<!--                                </span>-->
-<!--</p>-->

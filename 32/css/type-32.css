@@ -81,10 +81,78 @@
 }
 .product-reviews .prd-rew-content .comment-respond .rating2 label:hover:after,
 .product-reviews .prd-rew-content .comment-respond .rating2 input:hover ~ label:after,
-.product-reviews .prd-rew-content .comment-respond .rating2 input:checked ~ label:after,
-.product-reviews .prd-rew-content .comment-respond .rating2 input:hover ~ label:after,
 .product-reviews .prd-rew-content .comment-respond .rating2 input:checked ~ label:after {
   opacity: 1;
+}
+.product-reviews .prd-rew-content .comment-respond .comment-form-comment {
+  font-family: Aller, sans-serif;
+  font-size: 15px;
+  color: #6f6f6f;
+}
+.product-reviews .prd-rew-content .comment-respond .comment-text-field {
+  border-radius: 25px;
+  background: #FCF7F1;
+  height: 150px;
+  width: 50%;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.product-reviews .prd-rew-content .comment-respond .comment-text-field .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: #FCF7F1;
+}
+.product-reviews .prd-rew-content .comment-respond .ath-name {
+  border-radius: 25px;
+  background: #FCF7F1;
+  height: 40px;
+  width: auto;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.product-reviews .prd-rew-content .comment-respond .ath-name .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: #FCF7F1;
+}
+.product-reviews .prd-rew-content .comment-respond .ath-email {
+  border-radius: 25px;
+  background: #FCF7F1;
+  height: 40px;
+  width: auto;
+  font-weight: 400;
+  border: 1px #5a6268;
+  outline: none;
+  resize: none;
+  padding: 0.934em;
+  transition: all ease .3s;
+}
+.product-reviews .prd-rew-content .comment-respond .ath-email .textarea {
+  vertical-align: top;
+  min-height: 5em;
+  color: #FCF7F1;
+}
+.product-reviews .prd-rew-content .comment-respond .form-submit .btn-primary {
+  height: 53px;
+  width: 90px;
+  border-radius: 50px;
+  background-color: #72b5ca;
+  border-color: transparent;
+}
+.product-reviews .prd-rew-content .comment-respond .form-submit .btn-primary:hover {
+  height: 53px;
+  width: 90px;
+  border-radius: 50px;
+  background-color: #95C8D7;
+  border-color: transparent;
 }
 .product-reviews .prd-rew-content .p {
   font-family: Aller, sans-serif;
