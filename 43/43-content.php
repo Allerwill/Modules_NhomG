@@ -8,12 +8,18 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
 ?>
-<div class="copyright_wrap">
-    <div class="copyright_wrap_inner">
-        <div class="content_wrap">
-            <div class="copyright_text">
-                ThemeREX © 2016 All Rights Reserved
-            </div>
+<!-- Audio Player -->
+<div class="sc_line1 empty_space"></div>
+<h3 class="sc_title sc_title_regular home_h2">Audio Player</h3>
+<div class="sc_audio_player sc_audio sc_audio_info" data-width="" data-height="">
+    <div class="sc_audio_header">
+        <div class="sc_audio_author">
+            <span class="sc_audio_author_name">Lily Hunter</span>
         </div>
+        <h4 class="sc_audio_title">Dream Music</h4>
+    </div>
+    <div class="__sc_audio_container">
+        <audio class="__sc_audio" src="uploads/sample-violetray.mp3" data-title="Dream Music" data-author="Lily Hunter"></audio>
     </div>
 </div>
+<!-- /Audio Player -->
